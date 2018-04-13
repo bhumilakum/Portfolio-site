@@ -1,26 +1,31 @@
 /* main css for the webpage */
 
 /* css for header and logo image */
+
 .header {
     margin: 20px 0;
     border-bottom: 5px solid #7d97ad;
     padding: 0 0 10px;
 }
-    .logo-image {
-        height: 79px;
-    }
+
+.logo-image {
+    height: 79px;
+}
 
 /* css for hero banner image */
+
 .hero {
     margin: 40px 0;
 }
 
 /* css for footer */
+
 footer {
     margin-bottom: 40px;
 }
 
 /* media query for mobile device to set logo with center alignment in the header */
+
 @media screen and (max-width:768px) {
     .logo-image {
         margin: auto;
